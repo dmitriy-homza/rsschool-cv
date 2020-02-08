@@ -1,0 +1,277 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #49494b;
+}
+
+header {
+  float: right;
+  background-color: #e8e9e9;
+  width: 400px;
+}
+
+header .photo {
+  margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-image: url(avatar.jpg);
+      background-size: 143%;
+      background-repeat: no-repeat;
+      background-position: 48% 17%;
+}
+
+header .infoblock {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+header .border {
+  width: 300px;
+  display: inline-block;
+  border-top: 1px solid #808183;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h2 {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #646161;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0366d6;
+  transition: 1s;
+}
+
+.border h3 {
+  display: inline-block;
+  width: 150px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+.border p {
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 140px;
+}
+
+div.border:last-of-type {
+  border-bottom: 1px solid #808183;
+}
+
+.border a {
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #49494b;
+  font-family: "Roboto", "Arial", sans-serif;
+  text-decoration: none;
+}
+
+.infoblock a.mail {
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #49494b;
+  font-family: "Roboto", "Arial", sans-serif;
+  text-decoration: none;
+  vertical-align: sub;
+}
+
+header div.photo + .infoblock {margin-top: 50px;}
+
+.profile .info {
+  float: left;
+  width: 600px;
+  padding-top: 50px;
+}
+
+h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.profession {
+  padding: 0px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+img.social  {
+  padding-top: 15px;
+  display: inline-block;
+  height: 25px;
+}
+a.social {
+  display: inline-block;
+  vertical-align: super;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 15px;
+  color: #49494a;
+  text-transform: uppercase;
+
+}
+
+div.interest {
+  background-image: url(dec/shape.png);
+  margin-top: 40px;
+  width: 100%;
+  height: 210px;
+
+}
+
+.interest h3 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.interest div {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+}
+
+.interest div div{
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table-cell;
+  padding-right: 20px;
+}
+.interest div div:first-of-type{
+  padding-left: 10px;
+}
+
+.interest img {
+  padding-right: 20px;
+  height: 30px;
+  padding-top: 20px;
+  display: block;
+  margin-left: 25px;
+}
+
+.interest p {
+margin-top: 10px;
+margin-bottom: 10px;
+vertical-align: top;
+text-transform: uppercase;
+color: #ffffff;
+text-align: center;
+width: 80px;
+}
+
+.interest div div:first-of-type  p{
+  margin-left: 5px;
+}
+.interest div:nth-of-type(2) {
+font-size: 12px;
+}
+
+.interest div div:nth-of-type(3n){
+  padding: 0px;
+  margin: 0px;
+}
+
+.profile {
+  color: #646161;
+}
+
+.profile h2 {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.info h3
+{
+  font-size: 22px;
+background: url(dec/shape2.png) no-repeat;
+background-size: 100%;
+background-position-y: 0px;
+width: 100%;
+text-transform: uppercase;
+height: 40px;
+line-height: 45px;
+margin-bottom: 15px;
+}
+
+.resume:first-of-type {
+padding-top: 30px;
+}
+
+.resume .icon {
+  background: url(dec/shape3.png) no-repeat;
+  background-size: 4%;
+  background-position-x: 562px;
+  background-position-y: 10px;
+}
+.info p {
+  font-family: serif;
+  font-style: italic;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.skills .icon {
+  background: url(dec/shape4.png) no-repeat;
+  background-size: 4%;
+  background-position-x: 561px;
+  background-position-y: 12px;
+}
+
+.skills ul {
+padding-left: 20px;
+column-count: 2;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio .icon {
+  background: url(dec/shape5.png) no-repeat;
+  background-size: 4%;
+  background-position-x: 561px;
+  background-position-y: 12px;
+}
