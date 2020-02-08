@@ -2,6 +2,7 @@
 ### Several ways to **contact me**:
 * Telegram: **@Dmitriy_Homza**
 * Email: **dmitriy.homza@gmail.com**
+
 ### Summary
 From childhood, computers and everything connected with them attracted me with their capabilities and pure logic. Unfortunately, for medical reasons, I could not enter the relevant university, so I graduated from the medical faculty :)
 
