@@ -8,6 +8,7 @@ body {
   width: 1024px;
   margin-left: auto;
   margin-right: auto;
+
   font-size: 20px;
   font-family: "Roboto", "Arial", sans-serif;
   color: #49494b;
@@ -15,41 +16,44 @@ body {
 
 header {
   float: right;
-  background-color: #e8e9e9;
   width: 400px;
+  background-color: #e8e9e9;
 }
 
 header .photo {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
   margin-left: auto;
-      margin-right: auto;
-      margin-top: 50px;
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      background-image: url(avatar.jpg);
-      background-size: 143%;
-      background-repeat: no-repeat;
-      background-position: 48% 17%;
+  margin-right: auto;
+
+  border-radius: 50%;
+  background-image: url(avatar.jpg);
+  background-size: 143%;
+  background-repeat: no-repeat;
+  background-position: 48% 17%;
 }
 
 header .infoblock {
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
 }
 
 header .border {
-  width: 300px;
   display: inline-block;
-  border-top: 1px solid #808183;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
+
+  border-top: 1px solid #808183;
 }
 
 header h2 {
-  text-transform: uppercase;
-  margin-bottom: 8px;
   margin-top: 30px;
+  margin-bottom: 8px;
+
+  text-transform: uppercase;
 }
 
 a {
@@ -60,23 +64,26 @@ a {
 a:hover {
   text-decoration: underline;
   color: #0366d6;
+
   transition: 1s;
 }
 
 .border h3 {
   display: inline-block;
   width: 150px;
-  font-size: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
   vertical-align: top;
+
+  font-size: 15px;
 }
 .border p {
   display: inline-block;
-  font-size: 15px;
+  width: 140px;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 140px;
+
+  font-size: 15px;
 }
 
 div.border:last-of-type {
@@ -85,26 +92,30 @@ div.border:last-of-type {
 
 .border a {
   display: inline-block;
-  font-size: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #49494b;
+
   font-family: "Roboto", "Arial", sans-serif;
+  font-size: 15px;
+  color: #49494b;
   text-decoration: none;
 }
 
 .infoblock a.mail {
   display: inline-block;
-  font-size: 12px;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #49494b;
-  font-family: "Roboto", "Arial", sans-serif;
-  text-decoration: none;
   vertical-align: sub;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  color: #49494b;
+  text-decoration: none;
 }
 
-header div.photo + .infoblock {margin-top: 50px;}
+header div.photo + .infoblock {
+  margin-top: 50px;
+}
 
 .profile .info {
   float: left;
@@ -113,96 +124,104 @@ header div.photo + .infoblock {margin-top: 50px;}
 }
 
 h1 {
+  margin: 0px;
+
+  font-size: 50px;
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 50px;
-  margin: 0px;
 }
 
 .profession {
   padding: 0px;
-  font-weight: 300;
   margin: 0px;
+
+  font-weight: 300;
 }
 
 img.social  {
-  padding-top: 15px;
   display: inline-block;
   height: 25px;
+  padding-top: 15px;
 }
+
 a.social {
   display: inline-block;
-  vertical-align: super;
-  text-decoration: none;
-  font-size: 15px;
   padding-left: 15px;
+  vertical-align: super;
+
+  font-size: 15px;
   color: #49494a;
   text-transform: uppercase;
-
+  text-decoration: none;
 }
 
 div.interest {
-  background-image: url(dec/shape.png);
-  margin-top: 40px;
   width: 100%;
   height: 210px;
+  margin-top: 40px;
 
+  background-image: url(dec/shape.png);
 }
 
 .interest h3 {
   display: inline-block;
+  width: 100%;
+  padding-top: 35px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  font-size: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
   vertical-align: top;
+
+  font-size: 30px;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 35px;
 }
 
 .interest div {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+
   font-size: 12px;
 }
 
 .interest div div{
+  display: table-cell;
   width: 80px;
   margin-left: auto;
   margin-right: auto;
-  display: table-cell;
   padding-right: 20px;
 }
+
 .interest div div:first-of-type{
   padding-left: 10px;
 }
 
 .interest img {
-  padding-right: 20px;
-  height: 30px;
-  padding-top: 20px;
   display: block;
+  height: 30px;
+  padding-right: 20px;
+  padding-top: 20px;
   margin-left: 25px;
 }
 
 .interest p {
-margin-top: 10px;
-margin-bottom: 10px;
-vertical-align: top;
-text-transform: uppercase;
-color: #ffffff;
-text-align: center;
-width: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
 }
 
-.interest div div:first-of-type  p{
+.interest div div:first-of-type p{
   margin-left: 5px;
 }
+
 .interest div:nth-of-type(2) {
 font-size: 12px;
 }
@@ -217,26 +236,28 @@ font-size: 12px;
 }
 
 .profile h2 {
+  margin: 0px;
+
   font-size: 15px;
   font-weight: 300;
-  margin: 0px;
 }
 
-.info h3
-{
+.info h3 {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+
   font-size: 22px;
-background: url(dec/shape2.png) no-repeat;
-background-size: 100%;
-background-position-y: 0px;
-width: 100%;
-text-transform: uppercase;
-height: 40px;
-line-height: 45px;
-margin-bottom: 15px;
+  line-height: 45px;
+  text-transform: uppercase;
+
+  background: url(dec/shape2.png) no-repeat;
+  background-size: 100%;
+  background-position-y: 0px;
 }
 
 .resume:first-of-type {
-padding-top: 30px;
+  padding-top: 30px;
 }
 
 .resume .icon {
@@ -245,6 +266,7 @@ padding-top: 30px;
   background-position-x: 562px;
   background-position-y: 10px;
 }
+
 .info p {
   font-family: serif;
   font-style: italic;
@@ -260,8 +282,9 @@ padding-top: 30px;
 }
 
 .skills ul {
-padding-left: 20px;
-column-count: 2;
+  padding-left: 20px;
+  
+  column-count: 2;
 }
 
 li {
