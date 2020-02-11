@@ -1,0 +1,300 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 20px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #49494b;
+}
+
+header {
+  float: right;
+  width: 400px;
+  background-color: #e8e9e9;
+}
+
+header .photo {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 50%;
+  background-image: url(avatar.jpg);
+  background-size: 143%;
+  background-repeat: no-repeat;
+  background-position: 48% 17%;
+}
+
+header .infoblock {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .border {
+  display: inline-block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-top: 1px solid #808183;
+}
+
+header h2 {
+  margin-top: 30px;
+  margin-bottom: 8px;
+
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #646161;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0366d6;
+
+  transition: 1s;
+}
+
+.border h3 {
+  display: inline-block;
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+
+  font-size: 15px;
+}
+.border p {
+  display: inline-block;
+  width: 140px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-size: 15px;
+}
+
+div.border:last-of-type {
+  border-bottom: 1px solid #808183;
+}
+
+.border a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 15px;
+  color: #49494b;
+  text-decoration: none;
+}
+
+.infoblock a.mail {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: sub;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  color: #49494b;
+  text-decoration: none;
+}
+
+header div.photo + .infoblock {
+  margin-top: 50px;
+}
+
+.profile .info {
+  float: left;
+  width: 600px;
+  padding-top: 50px;
+}
+
+h1 {
+  margin: 0px;
+
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.profession {
+  padding: 0px;
+  margin: 0px;
+
+  font-weight: 300;
+}
+
+img.social  {
+  display: inline-block;
+  height: 25px;
+  padding-top: 15px;
+}
+
+a.social {
+  display: inline-block;
+  padding-left: 15px;
+  vertical-align: super;
+
+  font-size: 15px;
+  color: #49494a;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+div.interest {
+  width: 100%;
+  height: 210px;
+  margin-top: 40px;
+
+  background-image: url(dec/shape.png);
+}
+
+.interest h3 {
+  display: inline-block;
+  width: 100%;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.interest div {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 12px;
+}
+
+.interest div div{
+  display: table-cell;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+}
+
+.interest div div:first-of-type{
+  padding-left: 10px;
+}
+
+.interest img {
+  display: block;
+  height: 30px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-left: 25px;
+}
+
+.interest p {
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.interest div div:first-of-type p{
+  margin-left: 5px;
+}
+
+.interest div:nth-of-type(2) {
+font-size: 12px;
+}
+
+.interest div div:nth-of-type(3n){
+  padding: 0px;
+  margin: 0px;
+}
+
+.profile {
+  color: #646161;
+}
+
+.profile h2 {
+  margin: 0px;
+
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.info h3 {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+
+  font-size: 22px;
+  line-height: 45px;
+  text-transform: uppercase;
+
+  background: url(dec/shape2.png) no-repeat;
+  background-size: 100%;
+  background-position-y: 0px;
+}
+
+.resume:first-of-type {
+  padding-top: 30px;
+}
+
+.resume .icon {
+  background: url(dec/shape3.png) no-repeat;
+  background-size: 4%;
+  background-position-x: 562px;
+  background-position-y: 10px;
+}
+
+.info p {
+  font-family: serif;
+  font-style: italic;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.skills .icon {
+  background: url(dec/shape4.png) no-repeat;
+  background-size: 4%;
+  background-position-x: 561px;
+  background-position-y: 12px;
+}
+
+.skills ul {
+  padding-left: 20px;
+  
+  column-count: 2;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio .icon {
+  background: url(dec/shape5.png) no-repeat;
+  background-size: 4%;
+  background-position-x: 561px;
+  background-position-y: 12px;
+}
