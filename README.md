@@ -1,1 +1,1 @@
-https://dmitriy-homza.github.io/rsschool-cv/cv
+https://dmitriy-homza.github.io/rsschool-cv/
