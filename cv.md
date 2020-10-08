@@ -13,6 +13,8 @@ Now my main goal is to get the knowledge necessary to solve problems in the work
 ### My skills:
 * **HTML5**
 * **CSS**
+* **SASS/SCSS**
+* **Bootstrap**
 * **Adaptive Layout**
 * **JavaScript**
 * **Git**
