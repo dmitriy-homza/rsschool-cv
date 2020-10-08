@@ -138,7 +138,7 @@ h1 {
   font-weight: 300;
 }
 
-img.social  {
+img.social {
   display: inline-block;
   height: 25px;
   padding-top: 15px;
@@ -160,7 +160,7 @@ div.interest {
   height: 210px;
   margin-top: 40px;
 
-  background-image: url(dec/shape.png);
+  background-image: url(dec/Shape.png);
 }
 
 .interest h3 {
@@ -187,7 +187,7 @@ div.interest {
   font-size: 12px;
 }
 
-.interest div div{
+.interest div div {
   display: table-cell;
   width: 80px;
   margin-left: auto;
@@ -195,7 +195,7 @@ div.interest {
   padding-right: 20px;
 }
 
-.interest div div:first-of-type{
+.interest div div:first-of-type {
   padding-left: 10px;
 }
 
@@ -218,15 +218,15 @@ div.interest {
   text-align: center;
 }
 
-.interest div div:first-of-type p{
+.interest div div:first-of-type p {
   margin-left: 5px;
 }
 
 .interest div:nth-of-type(2) {
-font-size: 12px;
+  font-size: 12px;
 }
 
-.interest div div:nth-of-type(3n){
+.interest div div:nth-of-type(3n) {
   padding: 0px;
   margin: 0px;
 }
@@ -283,7 +283,7 @@ font-size: 12px;
 
 .skills ul {
   padding-left: 20px;
-  
+
   column-count: 2;
 }
 
