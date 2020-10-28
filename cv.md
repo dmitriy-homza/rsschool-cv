@@ -13,6 +13,8 @@ Now my main goal is to get the knowledge necessary to solve problems in the work
 ### My skills:
 * **HTML5**
 * **CSS**
+* **SASS/SCSS**
+* **Bootstrap**
 * **Adaptive Layout**
 * **JavaScript**
 * **Git**
@@ -24,6 +26,3 @@ Now my main goal is to get the knowledge necessary to solve problems in the work
 
 ### [Here is my last project to optimize the work of young pharmacists.](http://wed.onagracija.by/)
 
-### My weaknesses at the moment:
-* **Current job**
-* My english
